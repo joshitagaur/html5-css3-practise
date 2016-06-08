@@ -1,0 +1,10 @@
+div > p{
+	color: blue;
+}
+p.Jos + p{
+	text-decoration: underline;
+}
+
+p.Gaur ~ p{
+	color: red;
+}

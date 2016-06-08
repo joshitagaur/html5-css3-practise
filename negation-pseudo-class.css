@@ -1,0 +1,3 @@
+*{ color: blue; }
+
+:not(.Jos){color: red;};

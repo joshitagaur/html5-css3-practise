@@ -1,0 +1,15 @@
+.name{
+	color: red;
+}
+p[name="learn"]{
+	color: green;
+}
+p[name^="hobby"]{
+	color: orange;
+}
+p[name$="hobby"]{
+	color: blue
+}
+p[name*="run"]{
+	text-decoration: underline;
+}
