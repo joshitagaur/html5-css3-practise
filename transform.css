@@ -1,0 +1,15 @@
+#small_box{
+	border: 5px solid black;
+	width: 500px;
+	margin: 20px auto;
+	background-color: orange;
+	outline: 5px solid red;
+	-webkit-transform: translate(50px,50px) rotate(45deg) scale(0.6);
+	/*translate used to change position*/
+}
+p{
+	padding: 5px;
+	font: 20px bold Tahoma;
+	text-align: center;
+	
+}

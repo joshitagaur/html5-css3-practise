@@ -1,0 +1,14 @@
+#small_box{
+	border: 1px solid black;
+	width: 200px;
+	margin: 20px auto;
+	-webkit-border-radius: 20px;
+	-webkit-box-shadow: rgba(110,110,110, .6) 8px 8px 8px;
+	background: -webkit-linear-gradient(top, red 0%, orange 50%);
+}
+p{
+	padding: 5px;
+	font: 20px bold Tahoma;
+	text-align: center;
+	text-shadow: rgb(110,110,110) 3px 3px 5px;
+}
