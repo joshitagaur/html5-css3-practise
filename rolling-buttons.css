@@ -1,0 +1,21 @@
+#small_box{
+	border: 5px solid black;
+	width: 200px;
+	height: 75px;
+	margin: 150px auto;
+	background-color: orange;
+	opacity: 0.6;
+	-webkit-transition: -webkit-transform 2s, opacity 2s, background-color 2s, width 2s, height 2s;
+}
+p{
+	padding: 5px;
+	font: 20px bold Tahoma;
+	text-align: center;
+}
+#small_box:hover{
+	-webkit-transform: rotate(360deg);
+	opacity: 1;
+	background-color: blue;
+	width: 500px;
+	height: 200px;
+}

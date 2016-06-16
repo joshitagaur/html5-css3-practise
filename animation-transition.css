@@ -1,0 +1,15 @@
+#small_box{
+	border: 5px solid black;
+	width: 500px;
+	margin: 50px auto;
+	background-color: orange;
+	-webkit-transition: -webkit-transform 2s;
+}
+p{
+	padding: 5px;
+	font: 20px bold Tahoma;
+	text-align: center;
+}
+#small_box:hover{
+	-webkit-transform: rotate(45deg);
+}
